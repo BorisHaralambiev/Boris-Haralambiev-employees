@@ -13,7 +13,6 @@ public class Employee {
 	private LocalDate DateFrom;
 	private LocalDate DateTo;
 	
-	
 	public Employee() {}
 
 	public int getEmpID() {
@@ -142,7 +141,5 @@ public class Employee {
 		System.out.println("ID of the first employee: " + firstEmployee);
 		System.out.println("ID of the Second employee: " + secondEmployee);
 		System.out.println("Total number of days: " + currentMax);
-		
-	
 	}
 }
